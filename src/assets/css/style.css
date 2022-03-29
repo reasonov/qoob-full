@@ -1,0 +1,145 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+    font-family: 'Graphik LCG';
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: inherit;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+b {
+    font-weight: 500;
+}
+
+.a-side {
+    position: fixed;
+    left: 0;
+    top: 0;
+    
+    width: 200px;
+    min-height: 100vh;
+    height: 100%;
+
+    background-color: #1E2022;
+}
+
+.rate-page {
+    max-width: 1200px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    box-sizing: border-box;
+}
+
+.rate__title {
+    margin-bottom: 30px;
+
+    font-size: 26px;
+    font-weight: 600;
+    color: #1E2022;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+
+    width: 630px;
+
+    font-size: 16px;
+}
+
+.rate__info {
+    margin-bottom: 20px;
+}
+
+.info__rate b {
+    color: rgb(161, 162, 162);
+}
+
+.rate__recommendation b {
+    font-size: 16px;
+    color: #328fe4;
+}
+
+.card-list {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 40px;
+}
+
+.close-modal1 {
+    position: absolute;
+    top: -10px;
+    left: -108px;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 12px 0 0 12px;
+    box-shadow: -15px 0px 25px -13px rgba(111, 111, 111, 0.2) inset;
+
+    background: #F6F9FC;
+}
+
+.close-modal2 {
+    position: absolute;
+    top: -30px;
+    right: -25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    box-shadow: 0 17px 40px rgb(19 49 97 / 7%), 0 6.20528px 21.901px rgb(19 49 97 / 5%), 0 3.01255px 10.6325px rgb(19 49 97 / 4%), 0 1.47681px 5.21226px rgb(19 49 97 / 3%), 0 0.583932px 2.06094px rgb(19 49 97 / 2%);
+
+    background-color: #f7f9fc;
+
+}
+
